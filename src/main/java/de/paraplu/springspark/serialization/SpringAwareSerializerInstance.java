@@ -41,7 +41,6 @@ public class SpringAwareSerializerInstance extends KryoSerializerInstance {
 
 	@Override
 	public <T> ByteBuffer serialize(T t, ClassTag<T> evidence$3) {
-		// TODO Auto-generated method stub
 		return super.serialize(t, evidence$3);
 	}
 
