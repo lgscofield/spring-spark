@@ -23,9 +23,4 @@ public class AppConfiguration {
 }
 ```
 
-The SpringBuilder class uses a @PostConstruct annotation to create a static AutowireCapableBeanFactory. Therefore it has to be added as bean. This static AutowireCapableBeanFactory is then used in the deserialization part to autowire all fields with spring.
-
-
-## Maven Repository
-
-If there is enough interest I'll put this project into a maven repository. I've never done that, so it'll be a little bit work for me.
+The ```SpringBuilder``` class uses a ```@PostConstruct``` annotation to create a static ```AutowireCapableBeanFactory```. Therefore it has to be added as bean. This static ```AutowireCapableBeanFactory``` is then used in the deserialization part to autowire all fields with spring.
